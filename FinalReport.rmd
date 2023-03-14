@@ -81,7 +81,7 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-
+The data shows us that there were only 1300 white people who were for capital punishment, with 697 against. In others only 138 people were for it, and 112 against. Finally, the blacks only had 191 people in favor with 257 against.
 
 ## More data version
 
