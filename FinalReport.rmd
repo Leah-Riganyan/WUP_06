@@ -20,6 +20,7 @@ GSS <-read.dta(file="GSS2016.dta")
 GSS <- droplevels(GSS)
 mydata <- select(GSS,sex,race,cappun,degree,relig,gunlaw,tvhours,owngun,age,wordsum)
 mydata <- na.omit(mydata)
+source(file = "fisherXY.R")
 ```
 
 # Introduction
