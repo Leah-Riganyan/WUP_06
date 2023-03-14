@@ -81,7 +81,14 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
+
+```{r}
+fisherXY(mydata$race, mydata$cappun, printAll = TRUE)
+```
+
 The data shows us that there were only 1300 white people who were for capital punishment, with 697 against. In others only 138 people were for it, and 112 against. Finally, the blacks only had 191 people in favor with 257 against.
+
+
 
 ## More data version
 
@@ -89,3 +96,5 @@ The data shows us that there were only 1300 white people who were for capital pu
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+When we looked at all data, everything ended up different. The fisherXY test tells us that between each race is a statistical difference enough to be significant.
