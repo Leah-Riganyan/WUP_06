@@ -69,7 +69,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-
+The table above still shows that 67% of whites favored when 32% don't, that others favored 61% compared to the other 38%, and that blacks still only favored 47% with the majority being 52% in opposition.
 
 ## Inferential Results
 
