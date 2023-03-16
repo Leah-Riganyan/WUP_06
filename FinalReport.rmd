@@ -50,7 +50,7 @@ barchartGC(~race + cappun,data=mydata, type="percent")
 
 ```
 
-Even with less data, the results stayed the same. Whites were more in favor, next with others, while blacks' majority still oppose capital punishment.
+Even with less data, the results stayed the same. Whites were more in favor, next with others, while blacks' majority still oppose capital punishment
 
 ## Now with LESS data (more variables give less data due to NA's) create the approate graphic displays to answer the question.
 
@@ -83,6 +83,7 @@ fisher.test(table1)
 ```{r}
 fisherXY (mydata$race, mydata$cappun, printAll=TRUE)
 ```
+     
    The p-value for blacks compared to whites is high, at 1.74... while the other two groups had little difference. At least, not to >.5%
    The p-value comparing blacks and others is 0.06... while the comparison between whites and others is 0.256...
       
@@ -90,4 +91,4 @@ fisherXY (mydata$race, mydata$cappun, printAll=TRUE)
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
    
-   Whites were most in favor of capital punishment when compared with either of the groups. Blacks opposed it the most. Others were in the middle, but still greatly in favor of capital punishment. Most of this data is the same, but the difference here now is that the percentages are higher due to the sample size.
+   Whites were most in favor of capital punishment when compared with either of the groups. Blacks opposed it the most. Others were in the middle, but still greatly in favor of capital punishment. Most of this data is the same, but the difference here now is that the percentages are higher due to the sample size. There wasn't enough to prove a statistical difference before.
